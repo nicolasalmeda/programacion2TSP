@@ -1,5 +1,5 @@
-# Presentaciones de prácticos y proyectos 
+# Programación 2
 
-## Materia: 
-###Programación 2 
-###Profesor: Ing. Ricardo Silvera Teseira
+## Presentaciones de prácticos y proyectos.
+<p><strong>Profesor:</strong> Profesor: Ing. Ricardo Silvera Teseira </p> 
+
