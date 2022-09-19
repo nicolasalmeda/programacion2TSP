@@ -1,0 +1,31 @@
+.parrafo__1 {
+  color: #2d6932;
+  border: 3px dotted #d66f0f;
+  width: 500px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: right;
+  margin-bottom: 100px;
+}
+
+.parrafo__2 {
+  margin: auto;
+  border: 3px solid blue;
+  width: 500px;
+  padding: 50px;
+  font-style: italic;
+}
+
+.parrafo__3 {
+  width: 30%;
+  border: 6px outset #666;
+  padding: 10px;
+  text-align: justify;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.parrafo__4 {
+  width: 75%;
+  border-top: 3px solid #f0377b;
+}
