@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* ---PREGUNTA A--- */
+.container__1 {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 5%;
+}
+.caja {
+  background-color: blueviolet;
+  color: aliceblue;
+  font-size: 20px;
+  width: 200px;
+  height: 150px;
+  float: left;
+  margin: 5px;
+}
+/* FIN PREGUNTA A */
+
+/* ---PREGUNTA B--- */
+.container__2 {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.caja__2 {
+  background-color: blueviolet;
+  color: aliceblue;
+  font-size: 20px;
+  width: 200px;
+  height: 150px;
+  float: right;
+  margin: 5px;
+}
+
+.caja__2--1 {
+  background-color: blueviolet;
+  color: aliceblue;
+  font-size: 20px;
+  width: 200px;
+  height: 150px;
+  float: right;
+  position: relative;
+  top: 205px;
+  margin: 5px;
+}
+
+/* FIN PREGUNTA B */
+
+/* ---PREGUNTA C--- */
+.container__3 {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 5%;
+  margin-top: 205px;
+}
+
+.caja__3 {
+  background-color: blueviolet;
+  color: aliceblue;
+  font-size: 20px;
+  width: 200px;
+  height: 150px;
+  float: left;
+  margin: 5px;
+}
+.caja__3--1 {
+  background-color: blueviolet;
+  position: relative;
+  color: aliceblue;
+  font-size: 20px;
+  width: 200px;
+  height: 150px;
+  float: left;
+  top: 200px;
+  left: 420px;
+  margin: 5px;
+}
+
+/* FIN PREGUNTA C */
+
+/* ---PREGUNTA D--- */
+.container__4 {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 5%;
+  margin-top: 200px;
+}
+
+.caja__4 {
+  background-color: blueviolet;
+  color: aliceblue;
+  font-size: 20px;
+  width: 200px;
+  height: 150px;
+  float: right;
+  margin: 5px;
+}
+
+.caja__4--3,
+.caja__4--2 {
+  background-color: blueviolet;
+  color: aliceblue;
+  font-size: 20px;
+  width: 200px;
+  height: 150px;
+  float: left;
+  margin: 5px;
+}
+
+/* FIN PREGUNTA C */
