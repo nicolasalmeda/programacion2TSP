@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  --main--color: #3a3d47;
+  --nav--color: #1551a1;
+  --tittle--color: #ff7600;
+  --footer--color: #062348;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--main--color);
+}
+
+h1 {
+  color: var(--tittle--color);
+  margin-top: 10px;
+  margin-left: 200px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  width: 100%;
+  color: #ffff;
+  text-align: center;
+  background-color: #1551a1;
+  padding-top: 15px;
+}
+
+.nav {
+  margin: auto;
+  width: 1200px;
+  height: 300px;
+  background-color: var(--nav--color);
+}
+
+.container__nav__img {
+  float: left;
+  width: 20%;
+  margin-top: 125px;
+  margin-left: 50px;
+}
+.nav--img {
+  float: left;
+  margin: auto;
+}
+
+.nav__ul {
+  width: 50%;
+  float: left;
+  list-style: none;
+  margin-top: 125px;
+  margin-left: 150px;
+}
+
+.nav__li {
+  float: left;
+  padding: 15px;
+  border: 2px solid #ffff;
+  color: #ffff;
+}
+
+.container__main {
+  width: 1200px;
+  margin: auto;
+  background-color: #ffff;
+}
+.container__main__img {
+  width: 1200px;
+}
+
+.main__img {
+  width: 1200px;
+}
+
+.container__section {
+  width: 1200px;
+  overflow: hidden;
+  padding-bottom: 5px;
+}
+.card {
+  width: 31.65%;
+  margin: 10px;
+  float: left;
+}
+.card__img {
+  width: 100%;
+}
+.card__tittle {
+  background-color: #1551a1;
+  height: 50px;
+}
+
+.card__description {
+  border: 2px solid;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #1551a1;
+  border: none;
+  color: #ffff;
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-left: 130px;
+}
+
+footer {
+  background-color: var(--footer--color);
+  width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.footer__img {
+  width: 50%;
+  color: #ffff;
+  padding: 30px;
+  float: left;
+}
+
+.footer__img--img {
+  margin-left: 130px;
+  margin-bottom: 10px;
+}
+
+.footer__logos {
+  float: left;
+  padding: 35px;
+}
+
+.footer__description {
+  color: #ffff;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.footer__logos__img {
+  margin-left: 100px;
+}
