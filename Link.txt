@@ -1,8 +1,0 @@
-						LINK DE REPOSITORIO EN GITHUB 
-
-
-				https://github.com/nicolasalmeda/programacion2TSP.git
-
-
-
-Los trabajos prácticos se encuentran en la rama "tps" 
