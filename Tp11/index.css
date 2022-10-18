@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  margin: 20px;
+  background-color: rgb(193, 190, 190);
+  font-weight: bolder;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+
+.input {
+  padding: 10px;
+  width: 25%;
+}
+
+.button {
+  padding: 10px;
+  background-color: rgb(187, 246, 226);
+}

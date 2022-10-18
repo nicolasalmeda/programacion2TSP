@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body class="body">
+    <div id="form" class="container">
+      <label for="">Número 1</label>
+      <input
+        class="input"
+        type="number"
+        id="valor1"
+        autofocus
+        placeholder="Escribe el primer número"
+      />
+      <label for="">Número 2</label>
+      <input
+        type="number"
+        id="valor2"
+        placeholder="Escribe segundo número"
+        class="input"
+      />
+      <div class="button-container">
+        <button onclick="sumar();" class="button">Sumar</button>
+        <button onclick="restar();" class="button">Restar</button>
+        <button onclick="multiplicar();" class="button">Multiplicar</button>
+        <button onclick="dividir();" class="button">Dividir</button>
+      </div>
+
+      <p>El resultado es: <span id="resultado"></span></p>
+    </div>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
