@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: beige;
+}
+.nav {
+  background-color: rgb(80, 246, 80);
+  height: 10vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  height: 80vh;
+  background-color: rgb(187, 247, 98);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer {
+  height: 10vh;
+  background-color: rgb(45, 233, 45);
+  display: flex;
+  text-align: start;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.container {
+  margin: 2rem 0rem;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  width: 35px;
+  padding: 5px 0px;
+}
+
+button {
+  padding: 5px;
+}
+
+td {
+  border: 1px solid;
+  padding: 8px 8px;
+
+  width: 15px;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
