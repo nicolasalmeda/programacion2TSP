@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: blueviolet;
+  height: 100vh;
+  padding: 30px 50px;
+}
+
+.calculadora {
+  background-color: bisque;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5%;
+  padding: 1rem 0rem;
+  height: 90vh;
+}
+
+button {
+  width: 5%;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.blue {
+  color: rgb(92, 143, 237);
+}
+.green {
+  color: rgb(117, 183, 17);
+}
+
+.orange {
+  color: darkorange;
+}
+
+.red {
+  color: red;
+}
+.bordo {
+  color: indianred;
+}
+.purple {
+  color: darkviolet;
+}
