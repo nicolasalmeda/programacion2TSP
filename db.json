@@ -1,0 +1,132 @@
+{
+  "libros": [
+    {
+      "titulo": "Los Ojos del perro Siberiano",
+      "autor": "Antonio Santa Ana",
+      "id": 1
+    },
+    {
+      "titulo": "Martin Fierro",
+      "autor": "José Hernandez",
+      "id": 2
+    },
+    {
+      "titulo": "La maquina del tiempo",
+      "autor": "Herbert George Wells",
+      "id": 3
+    },
+    {
+      "titulo": "Los siete locos",
+      "id": 4,
+      "autor": "Roberto Arlt"
+    },
+    {
+      "titulo": "Crónica de una muerte anunciada",
+      "id": 5,
+      "autor": "Gbriel Garcia Márquez"
+    },
+    {
+      "titulo": "Mi planta de naranja lima",
+      "id": 6,
+      "autor": "José Mauro de Vasconcelos"
+    },
+    {
+      "titulo": "La Odisea de los giles",
+      "id": 7,
+      "autor": "Eduardo Sacheri"
+    },
+    {
+      "titulo": "EL menos preciado",
+      "autor": "mi autoria",
+      "id": 10
+    }
+  ],
+  "alumnos": [
+    {
+      "id": 1,
+      "dni": 36234416,
+      "nombre": "Nicolas De la Cruz",
+      "direccion": "Monumental"
+    },
+    {
+      "nombre": "Gonzalo Montiel",
+      "dni": "34441567",
+      "direccion": "España",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "dni": 26999817,
+      "nombre": "Javier Pinola",
+      "direccion": "Monumental"
+    },
+    {
+      "nombre": "Exequiel Barco",
+      "dni": "38403560",
+      "direccion": "Monumental",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "dni": 32020130,
+      "nombre": "Enzo Perez",
+      "direccion": "Monumental"
+    },
+    {
+      "id": 6,
+      "dni": 32693911,
+      "nombre": "Franco Armani",
+      "direccion": "Monumental"
+    },
+    {
+      "nombre": "Nicolas Lagoria",
+      "dni": "39541694",
+      "direccion": "tucuman",
+      "id": 8
+    }
+  ],
+  "prestamos": [
+    {
+      "id": 1,
+      "librosId": 1,
+      "alumnosId": 1,
+      "fecha": "3/14/2018",
+      "fechadevolucion": "12/9/2018"
+    },
+    {
+      "id": 2,
+      "librosId": 2,
+      "alumnosId": 3,
+      "fecha": "10/29/2022",
+      "fechadevolucion": "11/13/2022"
+    },
+    {
+      "id": 3,
+      "librosId": 4,
+      "alumnosId": 5,
+      "fecha": "10/30/2022",
+      "fechadevolucion": "11/30/2022"
+    },
+    {
+      "fecha": "10/29/2022",
+      "fechadevolucion": "11/13/2022",
+      "librosId": "5",
+      "alumnosId": "2",
+      "id": 4
+    },
+    {
+      "fecha": "10/29/2022",
+      "fechadevolucion": "11/13/2022",
+      "librosId": "5",
+      "alumnosId": "2",
+      "id": 5
+    },
+    {
+      "fecha": "",
+      "fechadevolucion": "11/13/2022",
+      "librosId": "5",
+      "alumnosId": "2",
+      "id": 6
+    }
+  ]
+}

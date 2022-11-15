@@ -1,0 +1,563 @@
+/* ------------------------ GENERALES------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-left: 20px;
+}
+
+/* ------------------------ FIN GENERALES------------------------*/
+
+/* ------------------------ SECCIONES ------------------------*/
+.body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff8d4;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  background-color: #ffb884;
+  justify-content: space-between;
+}
+
+.section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5df98;
+}
+
+.footer {
+  display: flex;
+  height: 10vh;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  background-color: #706767;
+}
+
+/* ------------------------FIN SECCIONES ------------------------*/
+
+/* ------------------------ CONTAINERS ------------------------*/
+
+.container__enlances {
+  display: flex;
+  margin-right: 50px;
+  gap: 30px;
+}
+.container__enlances a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.container__libros {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.container__libros__ingresos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+  gap: 10px;
+  border: #010101 solid 1px;
+  width: 35%;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: #f3da88;
+}
+
+.container__libros__listado {
+  display: flex;
+  width: 98%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0px;
+}
+
+.container__libros__listadoyedicion {
+  display: flex;
+  width: 100%;
+}
+.container__listado__libros {
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__listado__libros2 {
+  width: 50%;
+  align-items: center;
+  text-align: center;
+}
+
+.container__edit {
+  display: hidden;
+}
+
+.container__edit2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #f3da88;
+  border: #010101 1px solid;
+}
+
+.container_alumnos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.container_alumnos__ingresos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+  gap: 10px;
+  border: #010101 solid 1px;
+  width: 35%;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: #f3da88;
+}
+
+.container__alumnos__listado {
+  display: flex;
+  width: 100%;
+
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0px;
+}
+
+.container__alumnos__listar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__alumno__edit {
+  display: none;
+}
+
+.container__alumno__edit2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #f3da88;
+  border: #010101 1px solid;
+}
+
+.container__busqueda {
+  display: flex;
+  width: 100vw;
+}
+
+.busquedaA {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+.busquedaL {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+.container__prestamos__ingreso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+  gap: 10px;
+  border: #010101 solid 1px;
+  width: 50%;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: #f3da88;
+}
+
+.container__prestamos {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.container__registro__prestamos {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.container__devolucion {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.container__libros__prestados {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.container__libros_nodevueltos {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.container__registros {
+  width: 80%;
+}
+
+.container__devolucion__libros {
+  width: 80%;
+}
+
+.container__libros__nodevueltos__activos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ------------------------ INPUTS ------------------------*/
+input {
+  height: 30px;
+  min-width: 25%;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 2px solid #c0d1c2;
+  font-weight: bold;
+  background: #f1f4f1;
+}
+
+.input__ingresos {
+  width: 50%;
+}
+.input__nav {
+  width: 500px;
+}
+/* ------------------------FIN  INPUTS ------------------------*/
+
+/* ------------------------ BOTONES ------------------------*/
+
+.button {
+  min-width: 75px;
+  max-width: 150px;
+  width: 10%;
+  height: 40px;
+  color: #010101;
+
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #c0d1c2;
+  background: #c0d1c2;
+  margin-right: 5px;
+}
+.button:hover {
+  background: #fff;
+  color: #c0d1c2;
+}
+
+.button--libro {
+  min-width: 75px;
+  max-width: 150px;
+  width: 75px;
+  height: 40px;
+  color: #010101;
+
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #c0d1c2;
+  background: #c0d1c2;
+  margin-right: 5px;
+}
+
+.button--alumno {
+  min-width: 75px;
+  max-width: 150px;
+  width: 100px;
+  height: 40px;
+  color: #010101;
+
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #c0d1c2;
+  background: #c0d1c2;
+  margin-right: 5px;
+}
+
+.button--prestamo {
+  width: 20%;
+  height: 40px;
+  color: #010101;
+
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #c0d1c2;
+  background: #c0d1c2;
+  margin-right: 5px;
+}
+
+.btn-delete {
+  min-width: 75px;
+  max-width: 125px;
+  height: 40px;
+  color: #010101;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #ef233c;
+  background: #ef233c;
+}
+/* ------------------------FIN BOTONES ------------------------*/
+
+/* ------------------------ITEMS ------------------------*/
+.libro {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 5px;
+  font-weight: bold;
+  background-color: #f3b88e;
+  margin: 5px 0px;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.libro2 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 75%;
+  padding: 5px;
+  font-weight: bold;
+  background-color: #f3b88e;
+  margin: 5px 0px;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.libroPrestado {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 5px;
+  font-weight: bold;
+  background-color: #ffb43e;
+  margin: 5px 0px;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.alumno {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  font-weight: bold;
+  background-color: #f3b88e;
+  margin: 5px 0px;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px 0px;
+}
+
+.alumnoLibre {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 5px;
+  font-weight: bold;
+  background-color: #a4c972;
+  margin: 5px 0px;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.alumnoPrestamo {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 5px;
+  font-weight: bold;
+  background-color: #ff7a24;
+  margin: 5px 0px;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.alumnoDeudor {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 5px;
+  font-weight: bold;
+  background-color: #ef233c;
+  margin: 5px 0px;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.registro {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+  font-weight: bold;
+  background-color: #f3b88e;
+  margin: 5px 0px;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.registro--devolucion {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+  font-weight: bold;
+  background-color: #a4c972;
+  margin: 5px 0px;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.registro--prestado {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  padding: 5px;
+  font-weight: bold;
+  background-color: #ff7a24;
+  margin: 5px 0px;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.registro--nodevueltos {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  padding: 5px;
+  font-weight: bold;
+  background-color: #ef233c;
+  margin: 5px 0px;
+  align-items: center;
+  border-radius: 20px;
+}
+
+p {
+  width: 100%;
+}
+/* ------------------------FIN ITEMS------------------------*/
